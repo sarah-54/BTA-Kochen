@@ -7,11 +7,19 @@ body{background-color: white;
     margin: 0;
 }
 
-a{
-    color:black;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight:bold;
+a{color:black;
+text-decoration: none;
+text-transform: uppercase;
+font-weight:bold;
+
+}
+
+h1{
+
+}
+
+p{
+
 }
 
 ul{
@@ -42,6 +50,53 @@ header nav{
 .show{
     display: block;
 }
+
+.button{
+    background:white;
+    color: black;
+    text-transform: uppercase;
+    padding: 10px;
+    border: 1.5px solid #374a67;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #374a67;
+    font-weight: bold;
+    -webkit-box-shadow: 10px 9px 14px -7px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 9px 14px -7px rgba(0,0,0,0.75);
+box-shadow: 10px 9px 14px -7px rgba(0,0,0,0.75);
+transition: all 0.4s ease;
+    margin-top: 2rem;
+    display: inline-block;
+
+}
+
+.button:hover{
+    background: #374a67;
+    color: white;
+}
+
+.row{
+    display: flex;
+}
+
+
+#hero{
+    background-image: url(img/intro.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    text-align: center;
+
+}
+
+#rezepte{
+
+}
+
 
 @media(min-width:768px){
     header nav{
