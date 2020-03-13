@@ -7,20 +7,13 @@ body{background-color: white;
     margin: 0;
 }
 
-a{color:black;
+nav a{color:black;
 text-decoration: none;
 text-transform: uppercase;
 font-weight:bold;
 
 }
 
-h1{
-
-}
-
-p{
-
-}
 
 ul{
     list-style: none;
@@ -75,13 +68,52 @@ transition: all 0.4s ease;
     color: white;
 }
 
+.card h3 a{
+    color: #333;
+    text-decoration: none;
+}
+
+.card p a{
+color: #828282;
+text-decoration: none;
+padding: 0 1rem;
+padding: block;
+}
+
+.button-blue{
+    background: #374a67;
+    color: white;
+    margin-bottom: 1rem;
+    display: block;
+
+
+}
+
+.button-blue:hover{
+    background:white;
+    color: #374a67;
+    }
+
+.card img{
+    width: 100%;
+    }
+
+.card{
+    box-shadow: 0px 4px 6px -0px rgba(0,0,0,0.75);
+    border-radius: 4px;
+    text-align: center;
+    margin: 1rem;
+    overflow: hidden;
+}
+
+
 .row{
     display: flex;
 }
 
 
 #hero{
-    background-image: url(img/intro.jpg);
+    background-image:linear-gradient(90deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.5) 96%), url(img/intro.jpg);
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -93,10 +125,7 @@ transition: all 0.4s ease;
 
 }
 
-#rezepte{
-
-}
-
+ 
 
 @media(min-width:768px){
     header nav{
@@ -111,6 +140,10 @@ nav ul {
 }
 nav li{
     margin: 8px;
+}
+
+.row{
+    display: flex;
 }
 }
 
