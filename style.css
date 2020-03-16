@@ -42,6 +42,24 @@ header nav{
 }
 .show{
     display: block;
+    position: absolute;
+    top: 64px;
+    background: white;
+    width: 100%;
+    height: calc(100vh - 64px);
+    display: flex;
+    align-items: center;
+   justify-content: center;
+
+}
+
+.show li {
+    margin: 1rem 0;
+    text-align: center;
+}
+
+.overflow{
+    overflow: hidden;
 }
 
 .button{
@@ -60,6 +78,15 @@ box-shadow: 10px 9px 14px -7px rgba(0,0,0,0.75);
 transition: all 0.4s ease;
     margin-top: 2rem;
     display: inline-block;
+
+}
+
+input{ background:white;
+    color: black;
+    padding: 10px;
+    border-color: #04122b;
+    border-radius: 4px;
+
 
 }
 
@@ -138,7 +165,21 @@ h2 span{
 
 }
 
+.social ul {
+    display: flex;
+    font-size: 2rem;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+footer{
+    text-align: center;
+    padding: 2rem 0;
+}
  
+.social li{
+    margin: 0 1rem;
+}
 
 @media(min-width:768px){
     header nav{
@@ -157,6 +198,13 @@ nav li{
 
 .row{
     display: flex;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    min-height: 100px;
+    align-self: ;
 }
 }
 
